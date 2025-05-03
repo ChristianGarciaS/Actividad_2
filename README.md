@@ -48,12 +48,14 @@ Finalmente, se utilizó SMOTE para dar prioridad a las clases minoritarias, debi
 
 
 
+
+
 SVM:
 Modelo 1
 ![Logo del proyecto](SMV_Modelo1.png)
  
 Modelo 2
-![Modelo 2 SNV](SMV_Modelo2.png)
+![Logo del proyecto](SMV_Modelo2.png)
 
 Modelo 3
  

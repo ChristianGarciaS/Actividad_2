@@ -31,7 +31,8 @@ Por otro lado, se transformaron las variables bionarias: 'default', 'housing', '
 MODELOS:
 1.	Árbol de decisión:
 Este modelo se entrenó inicialmente con el parámetro max_depth=4, se obtuvo las siguientes métricas: 
- 
+
+![Logo del proyecto](Arbol_deci_1.png)
 
 Al validar este modelo se determinó que se puede optimizar su rendimiento con el parámetro max_depth=10 y class_weight="balanced", que se utiliza cuando las clases no están representadas equitativamente (clientes de aceptan el depósito a plazo fijo). Las métricas obtenidas fueron las siguientes:
  
@@ -44,7 +45,7 @@ Finalmente, se utilizó SMOTE para dar prioridad a las clases minoritarias, debi
 
 SVM:
 Modelo 1
-![Logo del proyecto](Imagen1.png)
+
  
 Modelo 2:
  
@@ -67,4 +68,3 @@ CONCLUSIONES:
 Se dio prioridad al aumento de Recall sobre Precisión, ya que en este caso nos interesa maximizar el recall de la clase 1 (clientes que aceptan), es decir, identificar la mayor cantidad de posibles clientes que acepten el depósito a plazo fijo. Siendo el objetivo principal del marketing: encontrar a los clientes que realmente aceptarán.
 Es posible que el bajo rendimiento en la precisión de la clase 1 se deba a características intrínsecas de la base de datos que estás utilizando. Los datos desbalanceados o las características del conjunto de datos pueden afectar el rendimiento del modelo.
 La base de datos Bank Marketing tiene un desbalance importante entre las clases (en general, las personas que aceptan productos bancarios son mucho menos que las que no lo hacen), lo que hace que cualquier modelo tenga dificultades para clasificar correctamente la clase 1.  Si la base de datos tiene un desbalance de clases significativo, donde la clase 1 es mucho menos frecuente que la clase 0, el modelo puede tener dificultades para predecir correctamente la clase minoritaria.
-

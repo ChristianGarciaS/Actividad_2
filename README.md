@@ -30,6 +30,7 @@ Input variables:
 Preprocesamiento de los datos:
 En el preprocesamiento de los datos, inicialmente se codificó todas las variables categóricas como estado civil, la profesión y el mes en el que se realizó las llamadas para tomarlas en cuenta en el entrenamiento del modelo. Sin embargo, se determinó que algunas variables no aportaban al rendimiento del modelo y generaban ruido, por lo que fueron eliminadas. Las variables eliminadas fueron: 'job', 'contact', 'day', 'month','previous', 'poutcome'.
 Por otro lado, se transformaron las variables bionarias: 'default', 'housing', 'loan' y 'y'. Finalmente, se obtuvo las mejores métricas posibles con las variables: 'age','default','balance','housing','loan','duration','campaign','pdays'.  Se realizó el escalado de los datos para normalizar sus características y se dividió el con junto de datos en 80% para entrenamiento y 20% para prueba.
+
 MODELOS:
 1.	Árbol de decisión:
 Este modelo se entrenó inicialmente con el parámetro max_depth=4, se obtuvo las siguientes métricas: 
@@ -61,12 +62,16 @@ Modelo 3
 
 
 
+
 Random Forest:
 Modelo 1
+
 ![Logo del proyecto](Randon_Forest_Modelo1.png)
 
 Modelo 2
+
 ![Logo del proyecto](Randon_Forest_Modelo2.png)
+
 
 CONCLUSIONES:
 Se dio prioridad al aumento de Recall sobre Precisión, ya que en este caso nos interesa maximizar el recall de la clase 1 (clientes que aceptan), es decir, identificar la mayor cantidad de posibles clientes que acepten el depósito a plazo fijo. Siendo el objetivo principal del marketing: encontrar a los clientes que realmente aceptarán.

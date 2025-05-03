@@ -43,6 +43,7 @@ Input variables:
   17 - y - has the client subscribed a term deposit? (binary: "yes","no")
 
 **PREPROCESAMIENTO DE LOS DATOS:**
+
 En el preprocesamiento de los datos, inicialmente se codificó todas las variables categóricas como estado civil, la profesión y el mes en el que se realizó las llamadas para tomarlas en cuenta en el entrenamiento del modelo. Sin embargo, se determinó que algunas variables no aportaban al rendimiento del modelo y generaban ruido, por lo que fueron eliminadas. Las variables eliminadas fueron: 'job', 'contact', 'day', 'month','previous', 'poutcome'.
 Por otro lado, se transformaron las variables bionarias: 'default', 'housing', 'loan' y 'y'. Finalmente, se obtuvo las mejores métricas posibles con las variables: 'age','default','balance','housing','loan','duration','campaign','pdays'.  Se realizó el escalado de los datos para normalizar sus características y se dividió el con junto de datos en 80% para entrenamiento y 20% para prueba.
 

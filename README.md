@@ -43,7 +43,7 @@ Al validar este modelo se determinó que se puede optimizar su rendimiento con e
  
 Finalmente, se utilizó SMOTE para dar prioridad a las clases minoritarias, debido a la gran diferencia entre clientes que sí aceptaron y clientes que no aceptaron. Las métricas finales fueron:
  
-![Logo del proyecto](Arbol_deci_3.png)
+![Logo del proyecto](Arbol_deci_3_Smote.png)
 
 
 

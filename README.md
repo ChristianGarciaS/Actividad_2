@@ -69,7 +69,8 @@ Modelo 3
 
 
 
-Random Forest
+Random Forest:
+
 Modelo 1
 
 ![Logo del proyecto](Randon_Forest_Modelo1.png)

@@ -35,34 +35,36 @@ Este modelo se entrenó inicialmente con el parámetro max_depth=4, se obtuvo la
 ![Logo del proyecto](Arbol_deci_1.png)
 
 Al validar este modelo se determinó que se puede optimizar su rendimiento con el parámetro max_depth=10 y class_weight="balanced", que se utiliza cuando las clases no están representadas equitativamente (clientes de aceptan el depósito a plazo fijo). Las métricas obtenidas fueron las siguientes:
+
+![Logo del proyecto](Arbol_deci_2.png)
  
 Finalmente, se utilizó SMOTE para dar prioridad a las clases minoritarias, debido a la gran diferencia entre clientes que sí aceptaron y clientes que no aceptaron. Las métricas finales fueron:
  
-
+![Logo del proyecto](Arbol_deci_3.png)
 
 
 
 
 SVM:
 Modelo 1
-
+![Logo del proyecto](SMV_Modelo1.png)
  
 Modelo 2:
- 
+![Logo del proyecto](SMV_Modelo2.png)
 
 Modelo 3
  
-
+![Logo del proyecto](SMV_Modelo3.png)
 
 
 
 
 Random Forest:
 Modelo 1
- 
+![Logo del proyecto](Randon_Forest_Modelo1.png)
 
 Modelo 2
- 
+![Logo del proyecto](Randon_Forest_Modelo2.png)
 
 CONCLUSIONES:
 Se dio prioridad al aumento de Recall sobre Precisión, ya que en este caso nos interesa maximizar el recall de la clase 1 (clientes que aceptan), es decir, identificar la mayor cantidad de posibles clientes que acepten el depósito a plazo fijo. Siendo el objetivo principal del marketing: encontrar a los clientes que realmente aceptarán.

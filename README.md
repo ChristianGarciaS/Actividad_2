@@ -59,7 +59,7 @@ Modelo 3
  
 ![Logo del proyecto](SMV_Modelo3.png)
 
-
+![Modelo 2 SNV](SMV_Modelo2.png)
 
 
 

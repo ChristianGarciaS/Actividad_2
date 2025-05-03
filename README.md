@@ -53,7 +53,7 @@ Modelo 1
 ![Logo del proyecto](SMV_Modelo1.png)
  
 Modelo 2:
-![Logo del proyecto](SMV_modelo2.png)
+![Logo del proyecto](SMV_Modelo2.png)
 
 Modelo 3
  
@@ -69,6 +69,7 @@ Modelo 1
 ![Logo del proyecto](Randon_Forest_Modelo1.png)
 
 Modelo 2
+
 
 ![Logo del proyecto](Randon_Forest_Modelo2.png)
 

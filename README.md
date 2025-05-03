@@ -50,7 +50,7 @@ Modelo 1
 ![Logo del proyecto](SMV_Modelo1.png)
  
 Modelo 2:
-![Logo del proyecto](SMV_Modelo2.png)
+![Logo del proyecto](SMV_modelo2.png)
 
 Modelo 3
  

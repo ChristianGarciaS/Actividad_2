@@ -1,4 +1,5 @@
 Base de datos: Bank_Marketing
+
 Link: https://archive.ics.uci.edu/dataset/222/bank+marketing
 Descripción: Los datos corresponden a campañas de marketing directo desde una entidad bancaria portuguesa. Durante las campañas, ofrecían depósitos a plazo fijo a sus clientes mediante llamadas telefónicas. El objetivo es predecir si un cliente aceptará realizar el depósito a plazo fijo tras una llamada telefónica. Al realizar el análisis exploratorio de los datos se identificó a la variable “y” como la variable objetivo en el modelo. La variable “Y” corresponde a si el cliente accede a realizar el depósito a plazo fijo, es vinaria y tiene los valores de “si” y “no”.  
 Variables de entrada:

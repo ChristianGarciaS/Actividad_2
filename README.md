@@ -97,7 +97,7 @@ Se optimizó el desempeño de este modelo modificando el parámetro n_estimators
 étricas de los modelos:
 ![image](https://github.com/user-attachments/assets/e410472c-7958-4f75-be6e-7911f43685de)
 
-## Video. Presentación Técnica del Modelo.
+## Video. Presentación Técnica del Modelo. (SE DESCARGARÁ PRESENTACIÓN .PPTX EN DIRECTORIO: DESCARGAS)
 ![Video](video.pptx)
 
 

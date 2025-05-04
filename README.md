@@ -93,7 +93,7 @@ Se optimizó el desempeño de este modelo modificando el parámetro n_estimators
 
 ![RF 2](Randon_Forest_Modelo2.png)
 
-## Comparación de las métricas de los modelos:
+## Comparación de las Métricas:
 
 ![image](https://github.com/user-attachments/assets/e410472c-7958-4f75-be6e-7911f43685de)
 
